@@ -3,13 +3,14 @@ import 'firebase/storage';
 import 'firebase/firestore';
 
 // Your web app's Firebase configuration
-var firebaseConfig = {
-    apiKey: "AIzaSyCvVd7LNCzc7hg_2o-XQGYSJRpHjkT__BE",
-    authDomain: "photo-gallery-92d5f.firebaseapp.com",
-    projectId: "photo-gallery-92d5f",
-    storageBucket: "photo-gallery-92d5f.appspot.com",
-    messagingSenderId: "773540483994",
-    appId: "1:773540483994:web:bc5c8ffc0ff4a4d19fe023"
+
+const firebaseConfig = {
+    apiKey: "AIzaSyBprYiRzH9y7VHgetFVJiky03NhTYgmhJg",
+    authDomain: "firegramm-767b8.firebaseapp.com",
+    projectId: "firegramm-767b8",
+    storageBucket: "firegramm-767b8.appspot.com",
+    messagingSenderId: "747468871370",
+    appId: "1:747468871370:web:091d4504bba866d77ec633",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
